@@ -83,7 +83,7 @@ Now, go back to the shared folders. Right-click on Personal → select Propertie
 
 
 9. <p align="center">
-   <img src="https://i.imgur.com/9AF8KqY.png" height="80%" width="80%" alt="Disk Sanitization Steps 9"/>
+   <img src="https://i.imgur.com/9AF8KqY.png" height="60%" width="60%" alt="Disk Sanitization Steps 9"/>
    <br />
    <br />
 </p>
