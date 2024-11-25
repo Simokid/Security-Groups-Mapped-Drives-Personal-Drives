@@ -18,7 +18,7 @@ In this home lab, we will focus on implementing **Security Groups**, **Mapped Dr
 
 
 1. <p align="center">
-   <img src="https://i.imgur.com/OXZLtA2.png" height="100%" width="100%" alt="Disk Sanitization Steps 1"/>
+   <img src="https://i.imgur.com/OXZLtA2.png" height="85%" width="85%" alt="Disk Sanitization Steps 1"/>
    <br />
    <br />
 </p>
@@ -26,7 +26,7 @@ In this home lab, we will focus on implementing **Security Groups**, **Mapped Dr
 Click Next until you reach the Specify Share Name screen. Name the share HR, then continue selecting Next until you reach the Create button. Click Create to finish setting up the shared folder.
 
 2. <p align="center">
-   <img src="https://i.imgur.com/FpY54MH.png" height="100%" width="100%" alt="Disk Sanitization Steps 2"/>
+   <img src="https://i.imgur.com/FpY54MH.png" height="85%" width="85%" alt="Disk Sanitization Steps 2"/>
    <br />
    <br />
 </p>
@@ -34,7 +34,7 @@ Click Next until you reach the Specify Share Name screen. Name the share HR, the
 Repeat the process, but this time name the share Personal. Select Next, then click Create to complete the setup for the second shared folder.
 
 3. <p align="center">
-   <img src="https://i.imgur.com/fkZJgVW.png" height="100%" width="100%" alt="Disk Sanitization Steps 3"/>
+   <img src="https://i.imgur.com/fkZJgVW.png" height="85%" width="85%" alt="Disk Sanitization Steps 3"/>
    <br />
    <br />
 </p>
@@ -42,7 +42,7 @@ Repeat the process, but this time name the share Personal. Select Next, then cli
 Now that we have our shared folders, open File Explorer → This PC → Local C Drive → Shares to access the shared folders.
 
 4. <p align="center">
-   <img src="https://i.imgur.com/KiHvsmG.png" height="100%" width="100%" alt="Disk Sanitization Steps 4"/>
+   <img src="https://i.imgur.com/KiHvsmG.png" height="85%" width="85%" alt="Disk Sanitization Steps 4"/>
    <br />
    <br />
 </p>
@@ -50,7 +50,7 @@ Now that we have our shared folders, open File Explorer → This PC → Local C 
 Now, go to Active Directory Users and Computers → right-click on Users → select New → then click Group to create a new security group.
 
 5. <p align="center">
-   <img src="https://i.imgur.com/HePii5u.png" height="100%" width="100%" alt="Disk Sanitization Steps 5"/>
+   <img src="https://i.imgur.com/HePii5u.png" height="85%" width="85%" alt="Disk Sanitization Steps 5"/>
    <br />
    <br />
 </p>
@@ -58,7 +58,7 @@ Now, go to Active Directory Users and Computers → right-click on Users → sel
 Name the group name “HR”.
 
 6. <p align="center">
-   <img src="https://i.imgur.com/8fJMHuA.png" height="100%" width="100%" alt="Disk Sanitization Steps 6"/>
+   <img src="https://i.imgur.com/8fJMHuA.png" height="85%" width="85%" alt="Disk Sanitization Steps 6"/>
    <br />
    <br />
 </p>
@@ -66,7 +66,7 @@ Name the group name “HR”.
 Now lets double click on “HR” → select “Managed By” → “Change” then enter “Helpdesk”. 
 
 7. <p align="center">
-   <img src="https://i.imgur.com/yGRCS6Z.png" height="100%" width="100%" alt="Disk Sanitization Steps 7"/>
+   <img src="https://i.imgur.com/yGRCS6Z.png" height="85%" width="85%" alt="Disk Sanitization Steps 7"/>
    <br />
    <br />
 </p>
@@ -74,7 +74,7 @@ Now lets double click on “HR” → select “Managed By” → “Change” t
 We will create another group the same way and call it “Personal” and have it managed by Helpdesk as well. 
 
 8. <p align="center">
-   <img src="https://i.imgur.com/Ks0PqDY.png" height="100%" width="100%" alt="Disk Sanitization Steps 8"/>
+   <img src="https://i.imgur.com/Ks0PqDY.png" height="85%" width="85%" alt="Disk Sanitization Steps 8"/>
    <br />
    <br />
 </p>
@@ -83,7 +83,7 @@ Now, go back to the shared folders. Right-click on Personal → select Propertie
 
 
 9. <p align="center">
-   <img src="https://i.imgur.com/9AF8KqY.png" height="100%" width="100%" alt="Disk Sanitization Steps 9"/>
+   <img src="https://i.imgur.com/9AF8KqY.png" height="85%" width="85%" alt="Disk Sanitization Steps 9"/>
    <br />
    <br />
 </p>
@@ -91,7 +91,7 @@ Now, go back to the shared folders. Right-click on Personal → select Propertie
 
 
 10. <p align="center">
-   <img src="https://i.imgur.com/OJoHw28.png" height="100%" width="100%" alt="Disk Sanitization Steps 10"/>
+   <img src="https://i.imgur.com/OJoHw28.png" height="85%" width="85%" alt="Disk Sanitization Steps 10"/>
    <br />
    <br />
 </p>
@@ -99,7 +99,7 @@ Now, go back to the shared folders. Right-click on Personal → select Propertie
 Repeat the process for the HR share folder. Once that’s done, open the HR group in Active Directory Users and Computers and click on the Members tab. Select Add, then search for and add Bob to the group.
 
 11. <p align="center">
-   <img src="https://i.imgur.com/ziWccE1.png" height="100%" width="100%" alt="Disk Sanitization Steps 11"/>
+   <img src="https://i.imgur.com/ziWccE1.png" height="85%" width="85%" alt="Disk Sanitization Steps 11"/>
    <br />
    <br />
 </p>
@@ -107,7 +107,7 @@ Repeat the process for the HR share folder. Once that’s done, open the HR grou
 Repeat the process for the Personal share folder. Open the Personal group in Active Directory Users and Computers, click on the Members tab, select Add, and then add Bob to the group.
 
 12. <p align="center">
-   <img src="https://i.imgur.com/Qtvj8h1.png" height="100%" width="100%" alt="Disk Sanitization Steps 12"/>
+   <img src="https://i.imgur.com/Qtvj8h1.png" height="85%" width="85%" alt="Disk Sanitization Steps 12"/>
    <br />
    <br />
 </p>
@@ -115,7 +115,7 @@ Repeat the process for the Personal share folder. Open the Personal group in Act
 To verify, select the HR organizational unit in the domain, then double-click on Bob. Next, go to the Member Of tab to confirm that Bob is a member of the HR group.
 
 13. <p align="center">
-   <img src="https://i.imgur.com/mRPy4c8.png" height="100%" width="100%" alt="Disk Sanitization Steps 13"/>
+   <img src="https://i.imgur.com/mRPy4c8.png" height="85%" width="85%" alt="Disk Sanitization Steps 13"/>
    <br />
    <br />
 </p>
@@ -123,7 +123,7 @@ To verify, select the HR organizational unit in the domain, then double-click on
 Now, we will focus on configuring the correct permissions. To do this, navigate to the Personal share folder, right-click on it, and select Properties. In the Security tab, click on Advanced, then select Disable Inheritance.
 
 14. <p align="center">
-   <img src="https://i.imgur.com/eVDaGjC.png" height="100%" width="100%" alt="Disk Sanitization Steps 14"/>
+   <img src="https://i.imgur.com/eVDaGjC.png" height="85%" width="85%" alt="Disk Sanitization Steps 14"/>
    <br />
    <br />
 </p>
@@ -131,7 +131,7 @@ Now, we will focus on configuring the correct permissions. To do this, navigate 
 Select the first option “Covert inherited permissions…”
 
 15. <p align="center">
-   <img src="https://i.imgur.com/zy73RaK.png" height="100%" width="100%" alt="Disk Sanitization Steps 15"/>
+   <img src="https://i.imgur.com/zy73RaK.png" height="85%" width="85%" alt="Disk Sanitization Steps 15"/>
    <br />
    <br />
 </p>
@@ -139,7 +139,7 @@ Select the first option “Covert inherited permissions…”
 Now remove both “Users”. This removes any users who do not have access to this personal folder. 
 
 16. <p align="center">
-   <img src="https://i.imgur.com/keMDWwm.png" height="100%" width="100%" alt="Disk Sanitization Steps 16"/>
+   <img src="https://i.imgur.com/keMDWwm.png" height="85%" width="85%" alt="Disk Sanitization Steps 16"/>
    <br />
    <br />
 </p>
@@ -147,7 +147,7 @@ Now remove both “Users”. This removes any users who do not have access to th
 Click Add, then select Select a principal. Add the Helpdesk group and assign the Modify permission under the basic permissions section.
 
 17. <p align="center">
-   <img src="https://i.imgur.com/TzRV84B.png" height="100%" width="100%" alt="Disk Sanitization Steps 17"/>
+   <img src="https://i.imgur.com/TzRV84B.png" height="85%" width="85%" alt="Disk Sanitization Steps 17"/>
    <br />
    <br />
 </p>
@@ -155,7 +155,7 @@ Click Add, then select Select a principal. Add the Helpdesk group and assign the
 Repeat the process and add the Personal group, ensuring the Modify permission is enabled under the basic permissions section.
 
 18. <p align="center">
-   <img src="https://i.imgur.com/2vYLhuj.png" height="100%" width="100%" alt="Disk Sanitization Steps 18"/>
+   <img src="https://i.imgur.com/2vYLhuj.png" height="85%" width="85%" alt="Disk Sanitization Steps 18"/>
    <br />
    <br />
 </p>
@@ -163,7 +163,7 @@ Repeat the process and add the Personal group, ensuring the Modify permission is
 Now, in the Personal folder properties, navigate to the Sharing tab → select Share... → right-click on Personal → choose Read/Write, then click Share.
 
 19. <p align="center">
-   <img src="https://i.imgur.com/AMYnfmj.png" height="100%" width="100%" alt="Disk Sanitization Steps 19"/>
+   <img src="https://i.imgur.com/AMYnfmj.png" height="85%" width="85%" alt="Disk Sanitization Steps 19"/>
    <br />
    <br />
 </p>
@@ -179,7 +179,7 @@ Now, repeat the process on the **HR** folder:
 
 
 20. <p align="center">
-   <img src="https://i.imgur.com/5WafDvo.png" height="100%" width="100%" alt="Disk Sanitization Steps 20"/>
+   <img src="https://i.imgur.com/5WafDvo.png" height="85%" width="85%" alt="Disk Sanitization Steps 20"/>
    <br />
    <br />
 </p>
@@ -194,7 +194,7 @@ Now, let's repeat the same process for the **HR** folder:
 This will allow **HR** group members to access the HR shared folder with the proper permissions.
 
 21. <p align="center">
-   <img src="https://i.imgur.com/Jjiz5LG.png" height="100%" width="100%" alt="Disk Sanitization Steps 21"/>
+   <img src="https://i.imgur.com/Jjiz5LG.png" height="85%" width="85%" alt="Disk Sanitization Steps 21"/>
    <br />
    <br />
 </p>
@@ -211,7 +211,7 @@ To ensure the **HR** group can "Read/Write" in the sharing properties, follow th
 This ensures that members of the **HR** group have the correct permissions to both read and write to the HR shared folder.
 
 22. <p align="center">
-   <img src="https://i.imgur.com/fhedpHg.png" height="100%" width="100%" alt="Disk Sanitization Steps 22"/>
+   <img src="https://i.imgur.com/fhedpHg.png" height="85%" width="85%" alt="Disk Sanitization Steps 22"/>
    <br />
    <br />
 </p>
@@ -227,7 +227,7 @@ Since Bob is part of the **HR** group, he should have access to this folder. You
 
 
 23. <p align="center">
-   <img src="https://i.imgur.com/r57qNEv.png" height="100%" width="100%" alt="Disk Sanitization Steps 23"/>
+   <img src="https://i.imgur.com/r57qNEv.png" height="85%" width="85%" alt="Disk Sanitization Steps 23"/>
    <br />
    <br />
 </p>
@@ -241,7 +241,7 @@ Since Bob is part of the **HR** group, he should have access to this folder. You
 - Click **Finish**.
 
 24. <p align="center">
-   <img src="https://i.imgur.com/tc1f5hD.png" height="100%" width="100%" alt="Disk Sanitization Steps 24"/>
+   <img src="https://i.imgur.com/tc1f5hD.png" height="85%" width="85%" alt="Disk Sanitization Steps 24"/>
    <br />
    <br />
 </p>
@@ -249,7 +249,7 @@ Since Bob is part of the **HR** group, he should have access to this folder. You
 
 
 25. <p align="center">
-   <img src="https://i.imgur.com/gr61oSK.png" height="100%" width="100%" alt="Disk Sanitization Steps 25"/>
+   <img src="https://i.imgur.com/gr61oSK.png" height="85%" width="85%" alt="Disk Sanitization Steps 25"/>
    <br />
    <br />
 </p>
@@ -257,7 +257,7 @@ Since Bob is part of the **HR** group, he should have access to this folder. You
 Another method to map a personal drive is by accessing your Windows Server 2022 account, copying the network path from the "Personal Properties" section in the shared folders.
 
 26. <p align="center">
-   <img src="https://i.imgur.com/5ZRXcuV.png" height="100%" width="100%" alt="Disk Sanitization Steps 26"/>
+   <img src="https://i.imgur.com/5ZRXcuV.png" height="85%" width="85%" alt="Disk Sanitization Steps 26"/>
    <br />
    <br />
 </p>
@@ -265,7 +265,7 @@ Another method to map a personal drive is by accessing your Windows Server 2022 
 Next, open Active Directory Users and Computers, search for "Bob," right-click on his name, and select "Properties." Then, go to the "Profile" tab and under "Home Folder," choose "Connect" and set the drive letter to P:. Paste the network path for the drive: \SERVER2022\Personal%username% (make sure to include "%username%"). Finally, click "Apply." This will create a personal folder within Bob's directory.
 
 27. <p align="center">
-   <img src="https://i.imgur.com/HB65kT2.png" height="100%" width="100%" alt="Disk Sanitization Steps 27"/>
+   <img src="https://i.imgur.com/HB65kT2.png" height="85%" width="85%" alt="Disk Sanitization Steps 27"/>
    <br />
    <br />
 </p>
@@ -273,7 +273,7 @@ Next, open Active Directory Users and Computers, search for "Bob," right-click o
 Once we log into Desktop2 as Bob, we will see that both the Personal and HR drives are mapped.
 
 28. <p align="center">
-   <img src="https://i.imgur.com/7FnDcol.png" height="100%" width="100%" alt="Disk Sanitization Steps 28"/>
+   <img src="https://i.imgur.com/7FnDcol.png" height="85%" width="85%" alt="Disk Sanitization Steps 28"/>
    <br />
    <br />
 </p>
