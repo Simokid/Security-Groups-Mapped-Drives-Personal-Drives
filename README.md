@@ -88,7 +88,7 @@ Now, go back to the shared folders. Right-click on Personal → select Propertie
    <br />
 </p>
 
-s
+
 
 10. <p align="center">
    <img src="https://i.imgur.com/OJoHw28.png" height="100%" width="100%" alt="Disk Sanitization Steps 10"/>
@@ -246,7 +246,7 @@ Since Bob is part of the **HR** group, he should have access to this folder. You
    <br />
 </p>
 
-s
+
 
 25. <p align="center">
    <img src="https://i.imgur.com/gr61oSK.png" height="100%" width="100%" alt="Disk Sanitization Steps 25"/>
