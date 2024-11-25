@@ -66,7 +66,7 @@ Name the group name “HR”.
 Now lets double click on “HR” → select “Managed By” → “Change” then enter “Helpdesk”. 
 
 7. <p align="center">
-   <img src="https://i.imgur.com/yGRCS6Z.png" height="60%" width="60%" alt="Disk Sanitization Steps 7"/>
+   <img src="https://i.imgur.com/yGRCS6Z.png" height="30%" width="30%" alt="Disk Sanitization Steps 7"/>
    <br />
    <br />
 </p>
