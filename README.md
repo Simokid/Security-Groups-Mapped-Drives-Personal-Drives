@@ -66,7 +66,7 @@ Name the group name “HR”.
 Now lets double click on “HR” → select “Managed By” → “Change” then enter “Helpdesk”. 
 
 7. <p align="center">
-   <img src="https://i.imgur.com/yGRCS6Z.png" height="10%" width="10%" alt="Disk Sanitization Steps 7"/>
+   <img src="https://i.imgur.com/yGRCS6Z.png" height="30%" width="30%" alt="Disk Sanitization Steps 7"/>
    <br />
    <br />
 </p>
@@ -107,7 +107,7 @@ Repeat the process for the HR share folder. Once that’s done, open the HR grou
 Repeat the process for the Personal share folder. Open the Personal group in Active Directory Users and Computers, click on the Members tab, select Add, and then add Bob to the group.
 
 12. <p align="center">
-   <img src="https://i.imgur.com/Qtvj8h1.png" height="30%" width="30%" alt="Disk Sanitization Steps 12"/>
+   <img src="https://i.imgur.com/Qtvj8h1.png" height="60%" width="60%" alt="Disk Sanitization Steps 12"/>
    <br />
    <br />
 </p>
@@ -115,7 +115,7 @@ Repeat the process for the Personal share folder. Open the Personal group in Act
 To verify, select the HR organizational unit in the domain, then double-click on Bob. Next, go to the Member Of tab to confirm that Bob is a member of the HR group.
 
 13. <p align="center">
-   <img src="https://i.imgur.com/mRPy4c8.png" height="30%" width="30%" alt="Disk Sanitization Steps 13"/>
+   <img src="https://i.imgur.com/mRPy4c8.png" height="60%" width="60%" alt="Disk Sanitization Steps 13"/>
    <br />
    <br />
 </p>
