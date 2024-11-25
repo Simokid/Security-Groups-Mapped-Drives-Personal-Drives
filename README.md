@@ -115,7 +115,7 @@ Repeat the process for the Personal share folder. Open the Personal group in Act
 To verify, select the HR organizational unit in the domain, then double-click on Bob. Next, go to the Member Of tab to confirm that Bob is a member of the HR group.
 
 13. <p align="center">
-   <img src="https://i.imgur.com/mRPy4c8.png" height="10%" width="10%" alt="Disk Sanitization Steps 13"/>
+   <img src="https://i.imgur.com/mRPy4c8.png" height="80%" width="80%" alt="Disk Sanitization Steps 13"/>
    <br />
    <br />
 </p>
