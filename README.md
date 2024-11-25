@@ -66,7 +66,7 @@ Name the group name “HR”.
 Now lets double click on “HR” → select “Managed By” → “Change” then enter “Helpdesk”. 
 
 7. <p align="center">
-   <img src="https://i.imgur.com/yGRCS6Z.png" height="55%" width="55%" alt="Disk Sanitization Steps 7"/>
+   <img src="https://i.imgur.com/yGRCS6Z.png" height="60%" width="60%" alt="Disk Sanitization Steps 7"/>
    <br />
    <br />
 </p>
@@ -74,7 +74,7 @@ Now lets double click on “HR” → select “Managed By” → “Change” t
 We will create another group the same way and call it “Personal” and have it managed by Helpdesk as well. 
 
 8. <p align="center">
-   <img src="https://i.imgur.com/Ks0PqDY.png" height="80%" width="80%" alt="Disk Sanitization Steps 8"/>
+   <img src="https://i.imgur.com/Ks0PqDY.png" height="60%" width="60%" alt="Disk Sanitization Steps 8"/>
    <br />
    <br />
 </p>
